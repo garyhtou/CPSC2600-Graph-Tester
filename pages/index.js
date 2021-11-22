@@ -107,7 +107,7 @@ export default function Home() {
 				<div className={styles.uResult}>
 					<div>
 						<h3>Your Results</h3>
-						<p>Paste em' in</p>
+						<p>Paste em&apos; in</p>
 						<textarea
 							onChange={handleuResult}
 							value={uResult}
