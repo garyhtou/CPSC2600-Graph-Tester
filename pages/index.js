@@ -100,7 +100,7 @@ export default function Home() {
 				</div>
 				<div className={styles.gResult}>
 					<div>
-						<h3>gary&apos;s Results</h3>
+						<h3>Gary&apos;s Results</h3>
 						<pre>{gResult}</pre>
 					</div>
 				</div>
@@ -115,10 +115,12 @@ export default function Home() {
 						></textarea>
 						<div>
 							<p>
-								<strong>Matches gary&apos;s Results?: </strong>
+								<strong>Matches Gary&apos;s results?: </strong>
 								<span style={{ color: matching ? 'green' : 'red' }}>
-									{matching ? 'Yes' : 'No'}
+									{matching ? 'Yes 🎉' : 'No'}
 								</span>
+								<br />
+								<small>Let me know if you get a different result!</small>
 							</p>
 							<button onClick={() => newTest()}>New Test</button>
 						</div>
