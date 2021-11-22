@@ -3,7 +3,7 @@ import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import { useState, useEffect } from 'react';
 
-import { database } from './utils/firebase';
+import { database } from '../utils/firebase';
 import { ref, get } from 'firebase/database';
 
 export default function Home() {
