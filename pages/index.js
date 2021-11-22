@@ -41,7 +41,8 @@ export default function Home() {
 	const getTests = async () => {
 		const tests = (await get(ref(database, '/tests'))).val();
 		setTests(tests);
-		console.log(tests);
+		console.log('TESTS:', tests);
+		console.log(`${Object.keys(tests).length} tests available`);
 		return tests;
 	};
 
